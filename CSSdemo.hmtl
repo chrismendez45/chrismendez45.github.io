@@ -9,10 +9,8 @@
         background-color: black;
         }
     </style>
-<!-- Head is text not seen on the page, Body is seen on the page, Title is the Tab name.-->
   </head>
   <body>
-   <p class='white blackbackground'>WHITE TEXT BLACK ACKGROUND NO WAYYY</p>
-  <!--Classes corresponds to '.'s IDs corresponds to '#'-->
+   <p class='white blackbackground'>WHITE TEXT BLACK BACKGROUND NO WAYYY</p>
   </body>
 </html>
