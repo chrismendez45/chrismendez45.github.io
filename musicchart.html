@@ -1,14 +1,24 @@
 <html>
   <head>
     <title>Music Chart</title>
+    <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
   </head>
   <body>
     <center>
-    <h1>Open the Console</h1>
+    <h1>My Favortie Kanye West Songs</h1>
+      <div id='plot'></div>
     <script>
-      console.log("This is from the internal JS");
+      console.log('This is from the internal JS');
+      let songNames = ['Flashing lights', 'Bound 2', 'All of the Lights'];
+      let streams = [148689765, 119496606, 305563738]
+      let trace = {
+        x: songNames,
+        y streams,
+        type:'bar'
+      };
     </script>
     <a href="index.html">Click here to return to home page</a>
     </center>
   </body>
 </html>
+
