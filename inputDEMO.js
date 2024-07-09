@@ -1,4 +1,4 @@
-console.log("JS File Loaded");
+console.log("JS File Loadeds");
 function outputDEMO()
 {
   var outputDEMO = document.getElementById("myText").value;
