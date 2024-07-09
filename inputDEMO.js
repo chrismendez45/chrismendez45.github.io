@@ -3,9 +3,9 @@ function outputDEMO()
 {
   var outputDEMO = document.getElementById("myText").value;
 
-  console.log(output);
+  console.log(outputDEMO);
 
-  alert(output);
+  alert(outputDEMO);
 
   document.getElementById().innerHTML = "You entered: " + output;
 }
