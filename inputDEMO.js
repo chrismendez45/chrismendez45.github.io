@@ -1,11 +1,11 @@
 console.log("JS File Loaded");
 function outputDEMO()
 {
-  var output = document.getElementById("myText").value;
+  var outputDEMO = document.getElementById("myText").value;
 
   console.log(output);
 
   alert(output);
 
-  document.getElementById();
+  document.getElementById().innerHTML = "You entered: " + output;
 }
