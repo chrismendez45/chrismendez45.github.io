@@ -5,7 +5,7 @@ function outputDEMO()
 
   console.log(output);
 
-  alert(output;
+  alert(output);
 
   document.getElementById();
 }
