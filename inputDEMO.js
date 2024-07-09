@@ -1,5 +1,5 @@
 console.log("JS File Loaded");
-function inputDEMO()
+function outputDEMO()
 {
   var output = document.getElementById("myText").value;
 
