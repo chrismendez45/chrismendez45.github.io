@@ -8,3 +8,10 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
+
+// 45.426447715753646, 12.341322503052655 - Hoter Cipriani
+L.circle([45.426447715753646, 12.341322503052655], {
+  fillcoler: 'lime',
+  color: 'green',
+  radius: 1000
+}).addTo(map);
