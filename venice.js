@@ -14,4 +14,5 @@ L.circle([45.426447715753646, 12.341322503052655], {
   fillcoler: 'lime',
   color: 'green',
   radius: 150
-}).addTo(map);
+}).bindPopup(`<iframe width="560" height="315" src="https://www.youtube.com/embed/k_qxONssH3A?si=nd2gUUbJioBQ_jjp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`)
+  .addTo(map);
